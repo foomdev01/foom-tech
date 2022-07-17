@@ -49,6 +49,7 @@
             <field name="perm_write" eval="False"/>
             <field name="perm_unlink" eval="False"/>
             <field name="perm_create" eval="False"/>
+            
         </record>
     </data>
     
