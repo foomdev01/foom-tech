@@ -1,0 +1,10 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_mrp_production_schedule,access_mrp_production_schedule,mrp_mps.model_mrp_production_schedule,foom_user_restricted.group_mrp_rnd,1,1,1,0
+
+access_product_template,access_product_template,product.model_product_template,purchase.group_purchase_user,1,0,0,0
+access_product_template,access_product_template,product.model_product_template,account.group_account_readonly,1,0,0,0
+access_product_template,access_product_template,product.model_product_template,account.group_account_invoice,1,0,0,0
+
+access_product_template,access_product_template,product.model_product_template,foom_user_restricted.group_mrp_rnd,1,1,1,1
+access_product_variant,access_product_variant,product.model_product_attribute,foom_user_restricted.group_mrp_rnd,1,1,1,1
+access_mrp_bom,access_mrp_bom,mrp.model_mrp_bom,foom_user_restricted.group_mrp_rnd,1,1,1,1
